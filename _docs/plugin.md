@@ -55,7 +55,6 @@ z= ...
     formulaLimit={...}
     commentLineChar=#
     
-    datasetFilter=contains("(.*)","print\\(")
     ```
 5. Rename and adapt the shell script to launch the code __'src/main/scripts/MyPlugin.sh'__ and/or __'src/main/scripts/MyPlugin.bat'__,
 6. Provide (at least) one test case in __'src/test/cases/MyTestCase.in/'__, containing all input files of this test case, including the main file which is passed as argument to the '.sh' script:
@@ -72,9 +71,7 @@ z= ...
     formulaStartSymbol=@
     formulaLimit={...}
     commentLineChar=#
-    
-    datasetFilter=contains("(.*)","print\\(")
-    
+        
     outputlist=x y z
     output.x.get=lines("(.*)out") >> filter("^x=(.*)") >> after("=")
     output.y.get=lines("(.*)out") >> filter("^y=(.*)") >> after("=")
