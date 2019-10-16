@@ -86,8 +86,9 @@ output.y=4.56
 output.z=7.89
 ```
     so that this test case is now complete.
-8. Check all test cases using `ant test`, which returns a json report, and should __not__ finished by `FAILED`
-9. Provide some sample case files in __'src/main/samples/OneSample.in'__.
+8. Unzip and rename as "funz-profile" the directory [common funz ressource directory](https://github.com/Funz/funz-profile/archive/master.zip)
+9. Check all test cases using `ant test` (or `C:\...\apache-ant-1....\bin\ant.bat test`), which returns a json report, and should __not__ finished by `FAILED`
+10. Provide some sample case files in __'src/main/samples/OneSample.in'__.
 
 
 ### Integration & Distribution
